@@ -1,4 +1,5 @@
 import "./App.css";
+import Calendar from "./components/Calendar";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
         This is a standard 1-week schedule for a busy college student who wants
         to maintain a healthy and balance lifestyle.
       </h2>
+      <Calendar />
     </div>
   );
 };
