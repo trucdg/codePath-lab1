@@ -31,21 +31,21 @@ const Calendar = () => {
           <tr>
             <td className="time">9 am</td>
             <td></td>
+            <Event event="Study Block ✍🏻" color="blue" />
             <td></td>
+            <Event event="Study Block ✍🏻" color="blue" />
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <Event event="Study Block ✍🏻" color="blue" />
             <td></td>
           </tr>
           <tr>
             <td className="time">10 am</td>
             <td></td>
+            <Event event="Study Block ✍🏻" color="blue" />
             <td></td>
+            <Event event="Study Block ✍🏻" color="blue" />
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <Event event="Study Block ✍🏻" color="blue" />
             <td></td>
           </tr>
           <tr>
@@ -60,13 +60,13 @@ const Calendar = () => {
           </tr>
           <tr>
             <td className="time">12 am</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <Event event="Lunch 🍝" color="pink" />
+            <Event event="Lunch 🍝" color="pink" />
+            <Event event="Lunch 🍝" color="pink" />
+            <Event event="Lunch 🍝" color="pink" />
+            <Event event="Lunch 🍝" color="pink" />
+            <Event event="Lunch 🍝" color="pink" />
+            <Event event="Lunch 🍝" color="pink" />
           </tr>
           <tr>
             <td className="time">1 pm</td>
@@ -82,9 +82,9 @@ const Calendar = () => {
             <td className="time">2 pm</td>
             <td></td>
             <td></td>
+            <Event event="Study Block ✍🏻" color="blue" />
             <td></td>
-            <td></td>
-            <td></td>
+            <Event event="Study Block ✍🏻" color="blue" />
             <td></td>
             <td></td>
           </tr>
@@ -92,31 +92,31 @@ const Calendar = () => {
             <td className="time">3 pm</td>
             <td></td>
             <td></td>
+            <Event event="Study Block ✍🏻" color="blue" />
             <td></td>
-            <td></td>
-            <td></td>
+            <Event event="Study Block ✍🏻" color="blue" />
             <td></td>
             <td></td>
           </tr>
           <tr>
             <td className="time">4 pm</td>
+            <Event event="Gym Time 💪🏻" color="orange" />
             <td></td>
+            <Event event="Gym Time 💪🏻" color="orange" />
             <td></td>
+            <Event event="Gym Time 💪🏻" color="orange" />
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <Event event="Gym Time 💪🏻" color="orange" />
           </tr>
           <tr>
             <td className="time">5 pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <Event event="Dinner 🥙" color="green" />
+            <Event event="Dinner 🥙" color="green" />
+            <Event event="Dinner 🥙" color="green" />
+            <Event event="Dinner 🥙" color="green" />
+            <Event event="Dinner 🥙" color="green" />
+            <Event event="Dinner 🥙" color="green" />
+            <Event event="Dinner 🥙" color="green" />
           </tr>
         </tbody>
       </table>
